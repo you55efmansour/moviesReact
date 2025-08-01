@@ -45,3 +45,10 @@ a {
 .vote {
   background-color: var(--light-bg);
 }
+
+.min-h-80vh{
+  min-height: 79vh;
+}
+.my-nav {
+  background-color: var(--bg-color);
+}

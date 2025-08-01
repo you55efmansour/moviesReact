@@ -21,7 +21,7 @@ export default function Home(prop) {
         <>
         <Helmet>
         <meta charSet='utf-8' />
-        <title>Noxe</title>
+        <title>WeYou</title>
         </Helmet>
         {/* movie comp */}
           <div className="row py-5">

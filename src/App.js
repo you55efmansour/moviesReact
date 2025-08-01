@@ -1,12 +1,12 @@
 import { RouterProvider,createHashRouter } from 'react-router-dom'
-import Layout from './componants/Layout/Layout'
-import Movies from './componants/Movies/Movies'
-import People from './componants/People/People'
-import Tv from './componants/Tv/Tv'
-import ItemDetails from './componants/ItemDetails/ItemDetails'
+import Layout from './components/Layout/Layout'
+import Movies from './components/Movies/Movies'
+import People from './components/People/People'
+import Tv from './components/Tv/Tv'
+import ItemDetails from './components/ItemDetails/ItemDetails'
 import axios from 'axios'
-import Home from './componants/Home/Home'
-import Error from './componants/Error/Error'
+import Home from './components/Home/Home'
+import Error from './components/Error/Error'
 
 async function getTrending(mediaType , setFunc){
   let {data} = await axios.get(`https://api.themoviedb.org/3/trending/${mediaType}/week?api_key=e3a7656e592d3c3ca6ee2b488863363e`);
